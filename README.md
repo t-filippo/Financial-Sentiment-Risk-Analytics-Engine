@@ -25,3 +25,34 @@ and financial fundamentals to identify and rank high-potential tech/AI stocks.
 
 ## Author
 Built as a learning project exploring quantitative finance and data engineering.
+
+## Results
+System tested on real tickers including NVDA.
+Output per ticker:
+- Composite sentiment score across recent news articles
+- Financial fundamentals: revenue, EPS, net income
+- Ranked sentiment comparison across multiple tickers
+
+Sample — NVDA output:
+- Sentiment Score: 0.337511
+- Revenue:  215938000000
+- EPS: 4.93
+
+## What didn't work
+- Initial approach used multiple API calls per session, 
+  which exhausted free tier limits rapidly. Switched to 
+  cached examples and minimal calls during development 
+  to preserve quota.
+- Composite scoring based purely on article count average 
+  does not weight article recency or source reliability. 
+  Known limitation to address in next iteration.
+
+## Limitations
+- Input validation is minimal — unexpected ticker formats 
+  or invalid symbols may cause unhandled errors.
+- Sentiment scores depend entirely on Alpha Vantage API 
+  quality and availability.
+- No historical backtesting — sentiment signal has not 
+  been validated against actual price movement.
+- Risk analytics module not yet implemented.
+- Free API tier limits real-time usage in production.
