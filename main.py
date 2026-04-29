@@ -63,20 +63,6 @@ for ticker in list_ticker:
     clean_ticker = ticker.strip()
     data = get_news_sentiment(clean_ticker, api_key)
 
-    #data = {
-        #"feed": [
-            #{
-               #"ticker_sentiment": [
-                    #{
-                    #"ticker": "AMD",
-                    #"relevance_score": "0.8",
-                    #"ticker_sentiment_score": "0.3"
-                    #}
-                #]
-            #}
-        #]
-    #}
-
     foundamentals = get_fmp_foundamentals(clean_ticker, fmp_key)
 
     if not foundamentals: 
