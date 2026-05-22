@@ -36,6 +36,9 @@ Sample — NVDA output:
 - Revenue:  215938000000
 - EPS: 4.93
 
+  ## Sample Output
+![NVDA Sentiment Analysis](images/output_nvda.png)
+
 ## What it does
 - Fetches real-time news sentiment for any stock ticker via Alpha Vantage
 - Retrieves financial fundamentals (revenue, EPS, net income) via FMP
