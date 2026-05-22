@@ -32,7 +32,9 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 Open `.env` and add your keys:
+
 ALPHA_VANTAGE_API_KEY=your_key_here
+
 FMP_API_KEY=your_key_here
 
 
