@@ -37,7 +37,7 @@ Sample — NVDA output:
 - EPS: 4.93
 
   ## Sample Output
-![NVDA Sentiment Analysis](images/output_nvda.png)
+![NVDA Sentiment Analysis](output_nvda.png)
 
 ## What it does
 - Fetches real-time news sentiment for any stock ticker via Alpha Vantage
