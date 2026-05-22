@@ -4,6 +4,11 @@ A Python-based OSINT research engine that combines real-time news sentiment
 and financial fundamentals to identify and rank high-potential tech/AI stocks.
 
 ## Hypothesis
+This project aims to build an accessible tool that enables 
+retail investors and finance students to validate sentiment-based 
+signals on tech stocks without requiring advanced ML expertise — 
+providing structured risk metrics alongside sentiment scores 
+to support more informed investment decisions.
 Public sentiment extracted from real-time financial news 
 contains measurable signals that reflect market perception 
 of a stock before it is priced in. By aggregating and scoring 
